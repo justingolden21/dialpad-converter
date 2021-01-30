@@ -10,22 +10,26 @@
 }
 
 body {
+	text-align: center;
 	margin: 1rem;
 }
 h1 {
-	text-align: center;
 	font-weight: lighter;
 	letter-spacing: 0.1rem;
 }
 
-@media (min-width: 640px) { /* sm */
+input {
+	width: 80%;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background-color: #f0f0f0;
+	border: 2px solid #999;
+	color: #333;
+	font-weight: 500;
+	font-size: medium;
+	box-shadow: 4px 4px 0px #ccc;
 }
-
-@media (min-width: 768px) { /* md */
-}
-
-@media (min-width: 1024px) { /* lg */
-}
-
-@media (min-width: 1280px) { /* xl */
+input:focus {
+	outline: none;
+	border-color: #333;
 }
